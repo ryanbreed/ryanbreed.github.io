@@ -1,0 +1,87 @@
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="container about">
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 blog-entries">
+		{{ content }}
+
+
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h4>Blog Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+  {% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+                            </ul>
+                        </div>
+                        <!-- /.col-lg-6 -->
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>My Stuff</h4>
+                    <ul>
+                      <li><a href="https://github.com/ryanbreed/resume">Resume</a> - guaranteed fresh!</li>
+                      <li><a href="https://github.com/ryanbreed/piglab">Piglab</a> - a snort workbench</li>
+                      <li><a href="https://github.com/ryanbreed/paystub-sinatra">Paystub (Sinatra)</a> - a really bad idea</li>
+                      <li><a href="https://github.com/ryanbreed/paystub-playbooks">Paystub Playbooks</a> - automating bad ideas since 2017</li>
+                      <li><a href="https://github.com/ryanbreed/scarpin">Scarlet Pinniped</a> - pure-ruby wrapper for RedSeal</li>
+                      <li><a href="https://github.com/ryanbreed/cef">CEF</a> - implementation of Common Event Format 1.0</li>
+                      <li><a href="https://github.com/ryanbreed/arc_weld">ArcWeld</a> - ArcSight asset modeling framework</li>
+                      <li><a href="https://github.com/ryanbreed/nwsdk">NwSdk</a> - CLI and wrapper for Netwitness/RSA Analytics</li>
+                      <li><a href="https://github.com/ryanbreed/oober">Oober</a> - Like TAXII, but easier</li>
+                      <li><a href="https://github.com/ryanbreed/ruby-taxii">ruby-taxii</a> - TAXII Poll Client</li>
+                      <li><a href="http://nbviewer.jupyter.org/github/ryanbreed/pysilk-notebooks_pytx2014/blob/master/pysilk_dtw_hclust.ipynb">Some Data Science</a> - clustering time series</li>
+                      <li><a href="http://nbviewer.jupyter.org/github/ryanbreed/pysilk-notebooks_pytx2014/blob/master/pysilk_graphlab.ipynb">More Data Science</a> - PageRank + netflow = fun</li>
+                    </ul>
+			    <!-- p class="bs-component">
+				<a href="javascript:void(0)" class="btn btn-primary">Primary</a><br>
+				<a href="javascript:void(0)" class="btn btn-success">Success</a><br>
+				<a href="javascript:void(0)" class="btn btn-info">Info</a><br>
+				<a href="javascript:void(0)" class="btn btn-warning">Warning</a><br>
+				<a href="javascript:void(0)" class="btn btn-danger">Danger</a><br>
+      </p -->
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->

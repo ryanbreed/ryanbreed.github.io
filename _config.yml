@@ -1,0 +1,63 @@
+permalink: /:categories/:year/:month/:slug
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Thorfile
+  - tmp
+  - log
+highlighter: pygments
+markdown: kramdown
+extensions: [fenced_code_blocks]
+excerpt_separator: "<!--more-->"
+timezone: America/Chicago
+future: true
+title : Ears to the Scanner
+production_url : http://ryanbreed.github.io/
+tagline: Because Idle Hands are the Devil's Workshop
+author :
+  name : Ryan Breed
+  email : ryan@cascadefailure.io
+  github : ryanbreed
+  twitter : ryanbreed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      type: "pages"
+      excerpt_separator: <!--more-->
+      author: Ryan Breed
+  -
+    scope:
+      path: "posts"
+    values:
+      type: "posts"
+      layout: "post"
+      excerpt_separator: <!--more-->
+      author: Ryan Breed
+
+
+JB :
+  version : 0.3.0
+  #
+  # GitHub Pages (http://username.github.io) #   DO NOT SET BASE_PATH
+  # BASE_PATH : http://ryanbreed.github.io
+   #BASE_PATH : /
+  ASSET_PATH : /assets
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+  comments :
+    provider : false
+  analytics :
+    provider : google
+    google :
+        tracking_id : 'UA-91182752-1'
+
+  sharing :
+    provider : false
