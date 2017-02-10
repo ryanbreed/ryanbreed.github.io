@@ -4,6 +4,7 @@ date: 2017-02-08
 published: true
 title: "Mapping out Adversary COAs in Breached Network Operations"
 description: "Developing Areas of Interest in the Operational Environment"
+category: doctrine
 tags:
   - doctrine
   - COA
