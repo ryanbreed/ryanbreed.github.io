@@ -120,7 +120,7 @@ Takeaway: It is the hyperextension or over-concentration of defense that causes 
 > the Joint Force will capitalize on defeating him in another where he is
 > weaker.*
 
-Corollary: The best defense is an absence of something defensible. Downsize before adding capability.
+Corollary: The best defense is an absence of something defensible. Eliminate before adding defense.
 
 > ... the Joint Force will maximize surprise through deception, stealth, and
 > ambiguity to counter adversary ISR and complicate targeting. ... *Where
@@ -150,8 +150,9 @@ Takeaway: patterns of composition in TTPs reduce risks and lower the marginal
 costs of each operation. When you find one of these, you can expect its users
 to be prolific operators.
 
-
-* The Joint Operational Access Concept (JOAC)
-* Joint Forcible Entry Operations(JP 3-18)
-* Joint Intelligence Preparation of the Operational Environment (JP 2-01.3)
-* Joint Concept for Entry Operations (JCEO)
+[Cyber Kill Chain]: http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf
+[Diamond Model]: http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf
+[JCEO]: http://www.dtic.mil/doctrine/concepts/joint_concepts/jceo.pdf
+[A2/AD]: https://en.wikipedia.org/wiki/Area_denial_weapon
+[JOAC]: https://www.defense.gov/Portals/1/Documents/pubs/JOAC_Jan%202012_Signed.pdf
+[JIPOE]: https://fas.org/irp/doddir/dod/jp2-01-3.pdf
