@@ -7,6 +7,7 @@ description: "developing a tactical surveillance capability with auditd"
 category: post-entry
 tags:
   - auditd
+  - paystub
   - stix:TTP-e1e4e3f7-be3b-4b39-b80a-a593cfd99a4f
   - Mane, Gucci
   - 40, E-
