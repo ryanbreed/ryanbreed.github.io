@@ -31,7 +31,7 @@ loud and obvious.
 <blockquote>
 <p>
   <a href="https://genius.com/1614280/Snoop-dogg-candy-drippin-like-water/Whatchu-tryna-buy-pimpin-yknow-its-kinda-dry-here">
-    Whatch&#39;all try&#39;na buy, pimpin? y&#39;know it&#39;s kinda; dry here
+    Whatch&#39;all try&#39;na buy, pimpin? y&#39;know it&#39;s kinda dry here
   </a>
 
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=mKli0y-Xr-Q&t=28s">
