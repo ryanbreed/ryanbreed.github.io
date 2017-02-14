@@ -112,6 +112,8 @@ Here's a sample 64bit policy just to whet your appetite:
     ## This should be everything else
     -a always,exit -F arch=b64 -S socket -F exe=/path/to/ruby -F key=64bit-ruby-ioc
 
+#### The Payoff
+
 Here's some sample logs of what a dialed-in audit configuration can produce
 from a box that's getting a reverse meterpreter inserted:
 
