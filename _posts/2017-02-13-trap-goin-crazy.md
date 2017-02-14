@@ -78,7 +78,7 @@ is its capacity to audit system calls.
 
 The basic system call audit rule looks something like this:
 
-    -a always,exit -F arch=b64 -S listen  -F *filterkey*=_filterval_ -F key=some-searchable-tag
+    -a always,exit -F arch=b64 -S listen  -F filterkey=filterval -F key=some-searchable-tag
 
 This audit rule sets a trigger to always fire off a log entry when the
 `listen` call returns an exit value. You can specify an arbitrary number of
