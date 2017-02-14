@@ -149,6 +149,7 @@ I'd recommend using a canary process to regularly pulse logs through the audit
 subsystem to ensure its ongoing functionality if this is a monitoring control
 you're seriously considering.
 
+[paystub]: https://github.com/ryanbreed/paystub-sinatra
 [previously]: /doctrine/2017/02/mapping-out-adversary-coas
 [auditd]: https://github.com/linux-audit/audit-userspace
 [CD]: https://martinfowler.com/bliki/ContinuousDelivery.html
