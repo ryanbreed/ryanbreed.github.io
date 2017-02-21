@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-02-14
+date: 2017-02-21
 published: true
 title: "eBPF Ambush - Strange Ways"
 description: "developing a dynamic surveillance capability with eBPF"
